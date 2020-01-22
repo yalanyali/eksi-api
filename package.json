@@ -1,0 +1,18 @@
+{
+  "name": "eksi-api",
+  "version": "1.1.0",
+  "description": "Unofficial Ekşi Sözlük API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "github.com/yalanyali",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.2",
+    "memory-cache": "^0.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
